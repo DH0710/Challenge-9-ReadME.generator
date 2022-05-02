@@ -1,1 +1,4 @@
-# Challenge-9-ReadME.generator
+# hi everyone
+## License
+[License Information](https://opensource.org/licenses/MIT)
+This project uses the MIT license
