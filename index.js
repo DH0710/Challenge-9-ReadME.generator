@@ -77,15 +77,9 @@ const questions = () => {
 const writeFile = data => {
     filessystem.writeFile('README.md', data, err => {
         
-        if (err) {
-            console.log(err);
-            return;
-        
-        } else {
             console.log("Your README has been successfully created!")
-        }
-    })
-}; 
+        });
+};
 
 // function call to initialize program
 questions()
@@ -97,6 +91,3 @@ questions()
     return writeFile(data);
 })
 
-.catch(err => {
-    console.log(err)
-})
